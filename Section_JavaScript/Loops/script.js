@@ -70,10 +70,75 @@
 // console.log("OK YOU WIN!!")
 
 // Guessing game
-let maximum = parseInt(prompt("Enter the maximum number!"));
-if (!maximum) {
-    maximum = parseInt(prompt("Enter a valid number!"));
-}
-const targetNum = Math.floor(Math.random() * maximum) + 1;
+// let maximum = parseInt(prompt("Enter the maximum number!"));
+// while (!maximum) {
+//     maximum = parseInt(prompt("Enter a valid number!"));
+// }
+
+// const targetNum = Math.floor(Math.random() * maximum) + 1;
+// console.log(targetNum);
+
+// let guess = parseInt(prompt("Enter your first guess"));
+// let attempts = 1;
+
+// while (parseInt(guess) !== targetNum) {
+//     if (guess === 'q') break;
+//     attempts++;
+//     if (guess > targetNum) {
+//         guess = prompt("Too high! Enter a new guess:");
+//     } else {
+//         guess = prompt("Too low! Enter a new guess:");
+//     }
+// }
+// if (guess === 'q') {
+//     console.log("OK, YOU QUIT!")
+// } else {
+//     console.log("CONGRATS YOU WIN")
+//     console.log(`YOU GOT IT! It took you ${attempts} guesses`)
+// }
+
+// For...Of Loop
+// Example 1
+// const subreddits = ['cringe', 'books', 'chickens', 'pics', 'soccer']
+
+// for (let i = 0; i < subreddits.length; i++) {
+//     console.log(`Visit reddit.com/r/${subreddits[i]}`)
+// }
+
+// for (let subreddit of subreddits) {
+//     console.log(`Visit reddit.com/r/${subreddit}`)
+// }
+// Example 2
+// const seatingChart = [
+//     ["Kristen", "Erik", "Namita",],
+//     ["Geoffrey", "Juanita", "Antonio", "Kevin"],
+//     ["Yuma", "Sakura", "Jack", "Erika"]
+// ];
+
+// for (let i = 0; i < seatingChart.length; i++) {
+//     const row = seatingChart[i];
+//     for (let j = 0; j < row.length; j++) {
+//         console.log(row[j])
+//     }
+// }
+
+// for (let row of seatingChart) {
+//     for (let student of row) {
+//         console.log(student);
+//     }
+// }
+// Example 3
+// for (let char of "hello world") {
+//     console.log(char);
+// }
+
+// // Practice
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]; //DON'T CHANGE THIS LINE PLEASE!
+
+// // WRITE YOUR LOOP BELOW THIS LINE:
+// for (let num of numbers) {
+//     console.log(Math.pow(num, 2));
+// }
+
 
 
